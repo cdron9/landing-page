@@ -6,11 +6,13 @@ font-family: sans-serif;
 
 }
 
-header, .footer {
+header {
     background-color: darkblue;
     width: 100%;
     color: antiquewhite;
 }
+
+
 
 .quote {
     background-color: lightgrey;
@@ -56,7 +58,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10vh 10%;
+    padding: 10vh 10vw;
 }
 
 
@@ -126,12 +128,80 @@ padding-bottom: 20px;
     color: rgb(158, 158, 158);
     font-size: 0.75rem;
     padding-top: 5px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 
 
+.quote {
+    font-style: italic;
+    font-weight: 100;
+    color: #4a4b4b;
+    text-align: center;
+    max-width: 50vw;
+    font-size: 1.5rem;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.quote-author {
+    font-style: normal;
+    font-weight: bold;
+
+    text-align: end;
+}
 
 
 
+footer {
+    padding: 40px 0;
+}
 
+.footer-container {
+    background-color: dodgerblue;
+    color: antiquewhite;
+    padding: 30px 50px;
+    margin: 0 auto;
+    max-width: 900px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text {
+    max-width: 70%;
+}
+
+.footer-title {
+    margin: 0;
+}
+
+.footer-body {
+    margin: 5px 0 0;
+    font-size: 0.95rem;
+    color: #a8b7d3; /* light gray */
+  }
+
+  .footer-button {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .footer-button a {
+    color: white;
+    text-decoration: none;
+  }
