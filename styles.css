@@ -3,6 +3,7 @@ margin: 0;
 padding: 0;
 font-family: sans-serif;
 
+
 }
 
 header, .footer {
@@ -97,6 +98,37 @@ a {
     color: #d1d5db;
     margin-bottom: 20px;
 }
+
+
+.box {
+    border: 2px, solid, dodgerblue;
+    height: 125px;
+    width: 125px;
+    border-radius: 10px;
+}
+
+.infosect-title {
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.infosect-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+
+.text   {
+    max-width: 125px;
+    color: rgb(158, 158, 158);
+    font-size: 0.75rem;
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+
 
 
 
